@@ -100,3 +100,7 @@ require(['app/myModule'], function(myModule) {
 ```
 
 This example can be looked at as `requirejs(['depencencies'], function(){})`, which indicates the loader's top level globals.
+
+## Additional Reading
+
+More information, resources and articles can be found here: [devlog - AMD and RequireJS](https://github.com/KleoPetroff/dev-log/blob/master/source/amd-requirejs.md) (any kind of contribution to that repository will be greatly appreciated).
