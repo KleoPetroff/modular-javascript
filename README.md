@@ -1,4 +1,4 @@
-# Modern JavaScript Patterns
+# Modular JavaScript
 
 In the world of scalable JavaScript, when we say modular, we often mean it's composed of a set of highly decoupled (separated) pieces of functionality stored in modules.
 
@@ -12,6 +12,6 @@ Ignoring these problem isn't an option. Native solutions to this problems will c
 
 We are doing to look at three ways to write modular JavaScript:
 
-- AMD
+- [AMD](https://github.com/KleoPetroff/modular-javascript/tree/master/AMD)
 - CommonJS
 - ES Harmony
