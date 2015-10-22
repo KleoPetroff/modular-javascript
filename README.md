@@ -13,5 +13,5 @@ Ignoring these problem isn't an option. Native solutions to this problems will c
 We are doing to look at three ways to write modular JavaScript:
 
 - [AMD](https://github.com/KleoPetroff/modular-javascript/tree/master/AMD)
-- CommonJS
+- [CommonJS](https://github.com/KleoPetroff/modular-javascript/tree/master/CommonJS)
 - ES Harmony
