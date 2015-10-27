@@ -1,0 +1,20 @@
+{
+  "name": "essential-es6-es2015",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live"
+  },
+  "author": "Kleo Petrov",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "babelify": "^6.4.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
