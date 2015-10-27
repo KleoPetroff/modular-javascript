@@ -14,4 +14,4 @@ We are doing to look at three ways to write modular JavaScript:
 
 - [AMD](https://github.com/KleoPetroff/modular-javascript/tree/master/AMD)
 - [CommonJS](https://github.com/KleoPetroff/modular-javascript/tree/master/CommonJS)
-- ES Harmony
+- [ES Harmony](https://github.com/KleoPetroff/modular-javascript/tree/master/ES6%20Modules)
