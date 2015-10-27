@@ -13,7 +13,7 @@ There are two kind of exports - named exports (several per module) and default e
 
 Named exports can exports multiple things by prefixing their declarations with a keyword `export`:
 
-```
+```js
 //libs.js
 
 export const sqrt = Math.sqrt;
@@ -35,7 +35,7 @@ console.lgo(sayHello('John')); // will log "Hello John"
 
 If we want to import the whole module (all variables and functions) we can use the `*` sign, but we need to refer to its named exports via property notation:
 
-```
+```js
 //app.js
 import * as lib from 'lib';
 console.log(lib.doMath(3)) // will log 6
@@ -44,7 +44,7 @@ console.log(lib.sayHello('stranger')) // will log "Hello stranger"
 
 Another way to export the whole module is:
 
-```
+```js
 //app.js
 import 'lib' as library
 
@@ -54,7 +54,7 @@ console.log(library.sayHello('Mark'));
 
 If we want to export a single value from the module then we can default export. 
 
-```
+```js
 // example.js
 exports default function(num1, num2) {
     return num1 + num 2;
@@ -63,7 +63,7 @@ exports default function(num1, num2) {
 
 This module exports a function as the default. The `default` keyword indicates that this is a default export and the function doesn't require a name because the module itself represents a function. We can also specify an identifier as being default export using the renaming syntax, such as:
 
-```
+```js
 // example.js
 // same as previous example
 function sum(num1, num2) {
@@ -75,7 +75,7 @@ export { sum as default };
 
 The `as default` specifies that sum should be the default export of the module. This syntax is equivalent to the previous example. Importing the default value is done with the `import` keyword:
 
-```
+```js
 import sum from 'example';
 
 console.log(sum(1, 3)); // 4
@@ -83,7 +83,7 @@ console.log(sum(1, 3)); // 4
 
 Note that there are no curly braces used in this case. The local name `sum` is used to represent the function that the module exports. This syntax is cleaner and it will be dominant form of import on the web, allowing you to use already existing objects, such as:
 
-```
+```js
 import $ from 'jquery';
 ```
 
